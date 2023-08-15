@@ -1,8 +1,8 @@
 #include <iostream>
 
-    using namespace std;
+using namespace std;
 
-        //here &x and &y are holding addresses/pointing of/to 10 and 20 respectively .
+          //here &x and &y are holding addresses/pointing of/to 10 and 20 respectively .
         void swapNums(int & x, int & y) {
         //swap the values 10 and 20 using temp variable z.
         int z = x;
