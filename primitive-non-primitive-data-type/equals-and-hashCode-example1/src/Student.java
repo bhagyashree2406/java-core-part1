@@ -54,12 +54,12 @@ public class Student {
             return false;
         Student student = (Student) o;
         return id == student.id &&
-                age == student.age &&
-                Objects.equals(name, student.name);
+                age == student.age && Objects.equals(name, student.name);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(name, id, age);
+        return Objects.hash(this.name, this.id, this.age);
+
     }
 }
