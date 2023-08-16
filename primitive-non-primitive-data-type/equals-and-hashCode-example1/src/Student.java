@@ -60,6 +60,13 @@ public class Student {
     @Override
     public int hashCode() {
         return Objects.hash(this.name, this.id, this.age);
+        /*
+        String name = "Bhagyashree" ->hashcode1  eg.2000
+        int id = 100 -> hashcode2   -> eg. 1000
+        int age = 23 -> hashcode3   -> eg.  3000
+        result = h1+h2+h3 -> student1 ka hashcode.
+        Student student = new Student("Bhagyashree", 100,23)
+         */
 
     }
 }

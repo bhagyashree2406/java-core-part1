@@ -33,7 +33,14 @@ public class Driver {
         System.out.println(student1.equals(student4));//true
 
         //System.out.println("HashCode for student1 is : " + student1.hashCode());
-        System.out.println("Bhagyashree  hashcode is : " + "Bhagyashree".hashCode());
+        // s[0]*31^(n-1) + s[1]*31^(n-2) +......s[n-1]
+        System.out.println("Bhagyashree  hashcode is : " + "B".hashCode());//66*31^0
+        System.out.println("Bhagyashree hashcode is : " + "Bh".hashCode());// 66*31^1 + 104*31^0
+        System.out.println("Bhagyashree hashcode is : " + "Bha".hashCode());// 66*31^2 66*31^1 + 104*31^0
+
+
+
+
 
 
 
